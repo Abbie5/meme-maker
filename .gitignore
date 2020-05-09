@@ -1,0 +1,7 @@
+templates/*
+out
+venv
+.idea
+__pycache__
+
+macros.json

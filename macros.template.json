@@ -1,0 +1,25 @@
+{
+  "macro-name": {
+    "filename": "filename.png",
+    "text_boxes": [
+      {
+        "pos": {
+          "x": 50,
+          "y": 200
+        },
+        "max_width": 100,
+        "align": {
+          "vertical": "BOTTOM",
+          "horizontal": "MIDDLE"
+        },
+        "font": {
+          "name": "arial.ttf",
+          "size": 24
+        },
+        "text_fill": "white",
+        "stroke_fill": "black",
+        "stroke_width": 2
+      }
+    ]
+  }
+}

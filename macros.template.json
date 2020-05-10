@@ -1,24 +1,23 @@
 {
-  "macro-name": {
+  "macro_name": {
     "filename": "filename.png",
+    "style": {
+      "font": "arial.ttf",
+      "text_fill": "white"
+    },
     "text_boxes": [
       {
-        "pos": {
-          "x": 50,
-          "y": 200
+        "pos": [50, 10],
+        "dimensions": [100, 50]
+      },
+      {
+        "style": {
+          "text_fill": "black",
+          "stroke_fill": "white",
+          "stroke_width": 2
         },
-        "max_width": 100,
-        "align": {
-          "vertical": "BOTTOM",
-          "horizontal": "MIDDLE"
-        },
-        "font": {
-          "name": "arial.ttf",
-          "size": 24
-        },
-        "text_fill": "white",
-        "stroke_fill": "black",
-        "stroke_width": 2
+        "pos": [20, 100],
+        "dimensions": [100, 100]
       }
     ]
   }
